@@ -6,18 +6,18 @@
 
 ### 1\. 成都市的支行名称
 
-$ π_{branch\_name}(σ_{branch\_city='成都'}(branch))$
+$ π_{branch\_name}(σ_{branch\_city='成都'}(branch)) $
 
 ### 2.杨柳支行贷款的借款人ID
 
-$$π_{ID}(borrower ⋈ σ_{branch\_name='杨柳'}(loan))$$
+$$ π_{ID}(borrower ⋈ σ_{branch\_name='杨柳'}(loan)) $$
 
 ## 题目二：用户登录验证
 
 用户登录逻辑：  
 用户提供用户名和密码，随后通过下面表达式：
 
-$$σ_{name=input\_name ∧ pswd=input\_password}(users)$$
+$$ σ_{name=input\_name ∧ pswd=input\_password}(users) $$
 
 从关系中筛选符合条件的元组
 
