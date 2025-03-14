@@ -1,8 +1,7 @@
 # 数据库关系代数作业
 
-## 题目一：银行数据库查询
+## 题目一
 
-### 1. 找到位于成都的支行名字
-```latex
-$π_{branch\_name}(σ_{branch\_city='成都'}(branch))$
-$E = mc^2$
+### 1. 成都市的支行名称
+### Mathematical formula
+`π_{branch\_name}(σ_{branch\_city='成都'}(branch))`
